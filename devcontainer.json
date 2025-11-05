@@ -1,0 +1,16 @@
+{
+  "name": "cors-anywhere Codespace",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "forwardPorts": [8080],
+  "postCreateCommand": "npm install",
+  "postStartCommand": "npm start",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint"
+      ]
+    }
+  }
+}
